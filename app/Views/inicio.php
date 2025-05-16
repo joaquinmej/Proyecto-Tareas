@@ -361,9 +361,9 @@ else{ $estado = "Completo"; }
     endforeach; ?>
  <h3 class="mb-3">Colaborando</h3>
 <div id="taskList">
-      <?php if (empty($tareas)): ?>
+      <?php if (!empty($colabo)): ?>
         <div class="alert alert-info">
-          <i class="bi bi-info-circle me-2"></i> No hay tareas disponibles. ¡Crea una nueva tarea para comenzar!
+          <i class="bi bi-info-circle me-2"></i> No estas colaborando en ninguna tarea
         </div>
       <?php endif; ?>
 
@@ -407,7 +407,7 @@ else{ $estado = "Completo"; }
               </span>
                   <span class="badge bg-info text-dark">
                     <i class="bi bi-calendar-event me-1"></i>
-                    <?php echo $tarea['fecha_vencimiento']; ?>
+                    <?php echo $colabo['fecha_vencimiento']; ?>
                   </span>
                 </div>
                 

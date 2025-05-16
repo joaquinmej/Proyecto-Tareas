@@ -160,7 +160,7 @@
     </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo site_url('tarea/archivadas'); ?>">
+            <a class="nav-link" href="<?php echo site_url('archivar'); ?>">
               <i class="bi bi-plus-circle me-1"></i> Tareas Archivadas
             </a>
           </li>
