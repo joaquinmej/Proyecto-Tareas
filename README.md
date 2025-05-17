@@ -1,4 +1,4 @@
-#pasos para que la pagina funcione
+# pasos para que la pagina funcione
 1- clonar el repositorio
 2-instalar las dependencias de codeigniter con composer install en la carpeta del proyecto clonado
 3-importar la base de datos
