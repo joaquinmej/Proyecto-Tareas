@@ -1,8 +1,12 @@
 # pasos para que la pagina funcione
 1- clonar el repositorio.
+
 2-instalar las dependencias de codeigniter con composer install en la carpeta del proyecto clonado.
+
 3-importar la base de datos.
+
 4-poner el nombre de la base de datos y las creedenciales en el archivo database.
+
 5-cambiar la ruta por la que corresponda en el archivo app.
 
 # CodeIgniter 4 Application Starter
